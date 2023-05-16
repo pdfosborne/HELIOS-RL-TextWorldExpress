@@ -1,6 +1,6 @@
 {   
-    "name": "template",
-    "problem_type": "template",
+    "name": "TextWorldExpress",
+    "problem_type": "TextWorldExpress",
     
     "experience_sample_batch_ratio": 0,
      

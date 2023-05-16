@@ -1,3 +1,3 @@
-# HELIOS-RL-ScienceWorld
+# HELIOS-RL-TextWorldExpress
 
-Application of the HELIOS-RL system to ScienceWorld https://github.com/allenai/ScienceWorld.
+Application of the HELIOS-RL system to TextWorldExpress https://github.com/cognitiveailab/TextWorldExpress.
