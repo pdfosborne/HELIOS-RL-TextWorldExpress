@@ -1,0 +1,501 @@
+,agent,opponent,episode,num_actions,episode_reward,cumulative_reward,time_per_episode,action_history,q_total,q_mean
+0,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,0,6,0.25,0.25,0.024931907653808594,"['examine cookbook', 'open cutlery drawer', 'open kitchen cupboard', 'examine oven', 'read cookbook', 'take knife', 'open fridge']",0.0125,0.0125
+1,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,1,3,0.25,0.5,0.027922868728637695,"['look around', 'look around', 'take knife', 'open fridge']",0.02496875,0.012484375
+2,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,2,36,0.25,0.75,0.10272455215454102,"['examine cookbook', 'examine kitchen cupboard', 'examine cookbook', 'inventory', 'examine cookbook', 'examine toaster', 'take cookbook', 'look around', 'examine cutlery drawer', 'examine kitchen cupboard', 'examine knife', 'open kitchen cupboard', 'inventory', 'examine kitchen cupboard', 'examine stove', 'close kitchen cupboard', 'put cookbook in counter', 'examine counter', 'examine kitchen cupboard', 'open dishwasher', 'take cookbook', 'close dishwasher', 'examine fridge', 'examine stove', 'examine cutlery drawer', 'examine cookbook', 'examine trash can', 'examine dishwasher', 'examine oven', 'look around', 'open cutlery drawer', 'examine counter', 'examine trash can', 'open dishwasher', 'examine cutlery drawer', 'take knife', 'open fridge']",0.0374078125,0.012469270833333332
+3,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,3,23,0.25,1.0,0.06283187866210938,"['inventory', 'examine cutlery drawer', 'examine trash can', 'examine fridge', 'examine cutlery drawer', 'examine dishwasher', 'examine dining chair', 'take cookbook', 'open cutlery drawer', 'open trash can', 'open dishwasher', 'examine kitchen cupboard', 'put cookbook in dishwasher', 'close cutlery drawer', 'read cookbook', 'examine fridge', 'inventory', 'examine kitchen cupboard', 'examine knife', 'examine cutlery drawer', 'close trash can', 'open trash can', 'examine counter', 'open fridge']",0.049907812499999996,0.012476953124999999
+4,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,4,0,0.25,1.25,0.007010698318481445,['open fridge'],0.06240781249999999,0.012481562499999998
+5,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,5,0,0.25,1.5,0.007012128829956055,['open fridge'],0.07428281249999999,0.014856562499999998
+6,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,6,6,0.25,1.75,0.018949270248413086,"['read cookbook', 'open dishwasher', 'examine toaster', 'examine stove', 'examine stove', 'examine oven', 'open fridge']",0.08678281249999999,0.014463802083333331
+7,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,7,0,0.25,2.0,0.006011486053466797,['open fridge'],0.0980640625,0.016344010416666666
+8,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,8,0,0.25,2.25,0.007009983062744141,['open fridge'],0.10878125,0.01813020833333333
+9,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,9,3,0.25,2.5,0.016954660415649414,"['look around', 'examine fridge', 'take knife', 'open fridge']",0.1212203125,0.0151525390625
+10,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,10,0,0.25,2.75,0.006014108657836914,['open fridge'],0.13140164062499998,0.016425205078124998
+11,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,11,0,0.25,3.0,0.007008075714111328,['open fridge'],0.14107390234375,0.01763423779296875
+12,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,12,0,0.25,3.25,0.006009817123413086,['open fridge'],0.1502625509765625,0.01878281887207031
+13,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,13,0,0.25,3.5,0.005983829498291016,['open fridge'],0.15899176717773436,0.019873970897216795
+14,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,14,0,0.25,3.75,0.006981372833251953,['open fridge'],0.16728452256884763,0.020910565321105953
+15,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,15,0,0.25,4.0,0.005982875823974609,['open fridge'],0.17516264019040523,0.021895330023800653
+16,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,16,0,0.25,4.25,0.006012678146362305,['open fridge'],0.18264685193088498,0.022830856491360622
+17,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,17,0,0.25,4.5,0.0069773197174072266,['open fridge'],0.18975685308434073,0.02371960663554259
+18,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,18,0,0.25,4.75,0.006009101867675781,['open fridge'],0.1965113541801237,0.02456391927251546
+19,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,19,0,0.25,5.0,0.0069811344146728516,['open fridge'],0.2029281302211175,0.025366016277639687
+20,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,20,0,0.25,5.25,0.006979465484619141,['open fridge'],0.2090240674600616,0.0261280084325077
+21,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,21,0,0.25,5.5,0.0069806575775146484,['open fridge'],0.2148152078370585,0.026851900979632314
+22,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,22,0,0.25,5.75,0.0059833526611328125,['open fridge'],0.22031679119520559,0.027539598899400698
+23,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,23,0,0.25,6.0,0.006012439727783203,['open fridge'],0.2255432953854453,0.02819291192318066
+24,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,24,0,0.25,6.25,0.0060083866119384766,['open fridge'],0.23050847436617303,0.02881355929577163
+25,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,25,0,0.25,6.5,0.006984233856201172,['open fridge'],0.23522539439786438,0.029403174299733048
+26,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,26,0,0.25,6.75,0.006011009216308594,['open fridge'],0.23970646842797116,0.029963308553496396
+27,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,27,0,0.25,7.0,0.006011486053466797,['open fridge'],0.24396348875657262,0.030495436094571577
+28,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,28,0,0.25,7.25,0.006011247634887695,['open fridge'],0.24800765806874397,0.031000957258592997
+29,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,29,0,0.25,7.5,0.006980419158935547,['open fridge'],0.25184961891530677,0.031481202364413347
+30,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,30,0,0.25,7.75,0.006985187530517578,['open fridge'],0.2554994817195414,0.031937435214942675
+31,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,31,0,0.25,8.0,0.007006645202636719,['open fridge'],0.25896685138356434,0.03237085642294554
+32,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,32,0,0.25,8.25,0.0069768428802490234,['open fridge'],0.26226085256438614,0.03278260657054827
+33,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,33,0,0.25,8.5,0.0070078372955322266,['open fridge'],0.2653901536861668,0.03317376921077085
+34,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,34,0,0.25,8.75,0.0069425106048583984,['open fridge'],0.26836298975185846,0.03354537371898231
+35,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,35,0,0.25,9.0,0.00695347785949707,['open fridge'],0.27118718401426556,0.033898398001783195
+36,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,36,0,0.25,9.25,0.006980419158935547,['open fridge'],0.2738701685635523,0.034233771070444036
+37,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,37,0,0.25,9.5,0.006982088088989258,['open fridge'],0.27641900388537466,0.03455237548567183
+38,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,38,0,0.25,9.75,0.006013154983520508,['open fridge'],0.2788403974411059,0.034855049680138236
+39,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,39,0,0.25,10.0,0.006981372833251953,['open fridge'],0.2811407213190506,0.035142590164881325
+40,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,40,0,0.25,10.25,0.006979942321777344,['open fridge'],0.28332602900309806,0.03541575362538726
+41,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,41,0,0.25,10.5,0.007979393005371094,['open fridge'],0.28540207130294315,0.035675258912867894
+42,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,42,0,0.25,10.75,0.00700831413269043,['open fridge'],0.287374311487796,0.0359217889359745
+43,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,43,0,0.25,11.0,0.007005929946899414,['open fridge'],0.28924793966340623,0.03615599245792578
+44,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,44,6,0.25,11.25,0.022937774658203125,"['open kitchen cupboard', 'examine trash can', 'examine trash can', 'examine dining chair', 'examine cutlery drawer', 'examine cookbook', 'open fridge']",0.30174793966340624,0.033527548851489584
+45,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,45,0,0.25,11.5,0.005984067916870117,['open fridge'],0.3035278864302359,0.03372532071447066
+46,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,46,9,0.25,11.75,0.02593207359313965,"['examine cutlery drawer', 'examine kitchen cupboard', 'open kitchen cupboard', 'open trash can', 'take cookbook', 'put cookbook in kitchen cupboard', 'take cookbook', 'examine cookbook', 'examine oven', 'open fridge']",0.31659038643023596,0.02878094422093054
+47,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,47,0,0.25,12.0,0.008008241653442383,['open fridge'],0.3182813358587242,0.028934666896247654
+48,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,48,0,0.25,12.25,0.0060138702392578125,['open fridge'],0.319887737815788,0.029080703437798908
+49,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,49,0,0.25,12.5,0.006009817123413086,['open fridge'],0.3214138196749986,0.0292194381522726
+50,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,50,0,0.25,12.75,0.005987882614135742,['open fridge'],0.3228635974412487,0.02935123613102261
+51,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,51,0,0.25,13.0,0.0059871673583984375,['open fridge'],0.32424088631918624,0.029476444210835114
+52,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,52,0,0.25,13.25,0.005953311920166016,['open fridge'],0.3255493107532269,0.029595391886656993
+53,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,53,0,0.25,13.5,0.007009029388427734,['open fridge'],0.3267923139655656,0.02970839217868778
+54,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,54,0,0.25,13.75,0.006009340286254883,['open fridge'],0.3279731670172873,0.029815742456117025
+55,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,55,0,0.25,14.0,0.006009101867675781,['open fridge'],0.3290949774164229,0.02991772521967481
+56,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,56,0,0.25,14.25,0.005987405776977539,['open fridge'],0.33016069729560177,0.030014608845054705
+57,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,57,0,0.25,14.5,0.005986690521240234,['open fridge'],0.3311731311808217,0.030106648289165608
+58,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,58,0,0.25,14.75,0.006009340286254883,['open fridge'],0.3321349433717806,0.030194085761070966
+59,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,59,0,0.25,15.0,0.005983114242553711,['open fridge'],0.33304866495319163,0.03027715135938106
+60,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,60,3,0.25,15.25,0.011980772018432617,"['examine kitchen cupboard', 'open kitchen cupboard', 'examine oven', 'open fridge']",0.3454877274531917,0.02879064395443264
+61,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,61,0,0.25,15.5,0.007012605667114258,['open fridge'],0.34635576295553205,0.02886298024629434
+62,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,62,0,0.25,15.75,0.005968332290649414,['open fridge'],0.34718039668275547,0.028931699723562954
+63,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,63,3,0.25,16.0,0.011944770812988281,"['examine dishwasher', 'take cookbook', 'examine cookbook', 'open fridge']",0.3596476623077555,0.027665204792904272
+64,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,64,0,0.25,16.25,0.007006168365478516,['open fridge'],0.3604310643486177,0.027725466488355208
+65,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,65,0,0.25,16.5,0.005984783172607422,['open fridge'],0.36117529628743683,0.027782715099033604
+66,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,66,0,0.25,16.75,0.005983829498291016,['open fridge'],0.361882316629315,0.02783710127917808
+67,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,67,0,0.25,17.0,0.006013631820678711,['open fridge'],0.36255398595409927,0.027888768150315327
+68,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,68,0,0.25,17.25,0.006009578704833984,['open fridge'],0.36319207181264435,0.02793785167789572
+69,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,69,0,0.25,17.5,0.006009817123413086,['open fridge'],0.3637982533782621,0.027984481029097084
+70,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,70,0,0.25,17.75,0.0059854984283447266,['open fridge'],0.36437412586559903,0.028028778912738386
+71,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,71,0,0.25,18.0,0.006008625030517578,['open fridge'],0.3649212047285691,0.02807086190219762
+72,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,72,2,0.25,18.25,0.010970592498779297,"['take cookbook', 'examine cookbook', 'open fridge']",0.3773573726973191,0.026954098049808507
+73,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,73,0,0.25,18.5,0.00695490837097168,['open fridge'],0.37787709761714067,0.02699122125836719
+74,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,74,0,0.25,18.75,0.0059833526611328125,['open fridge'],0.3783708362909711,0.027026488306497936
+75,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,75,0,0.25,19.0,0.005983829498291016,['open fridge'],0.3788398880311101,0.027059992002222148
+76,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,76,0,0.25,19.25,0.0059833526611328125,['open fridge'],0.37928548718424204,0.027091820513160145
+77,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,77,0,0.25,19.5,0.005983591079711914,['open fridge'],0.37970880637971743,0.027122057598551245
+78,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,78,0,0.25,19.75,0.0069806575775146484,['open fridge'],0.3801109596154191,0.02715078282967279
+79,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,79,0,0.25,20.0,0.005983591079711914,['open fridge'],0.3804930051893356,0.027178071799238257
+80,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,80,0,0.25,20.25,0.0060138702392578125,['open fridge'],0.3808559484845563,0.027203996320325448
+81,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,81,2,0.25,20.5,0.014960527420043945,"['look around', 'take knife', 'open fridge']",0.3932371203595563,0.02808836573996831
+82,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,82,0,0.25,20.75,0.006009101867675781,['open fridge'],0.393581916490016,0.028112994035001143
+83,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,83,0,0.25,21.0,0.005995750427246094,['open fridge'],0.3939094728139527,0.028136390915282337
+84,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,84,1,0.25,21.25,0.006981372833251953,"['examine oven', 'open fridge']",0.40632033218895275,0.027088022145930184
+85,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,85,0,0.25,21.5,0.006007671356201172,['open fridge'],0.4066315106966926,0.02710876737977951
+86,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,86,0,0.25,21.75,0.005984306335449219,['open fridge'],0.4069271302790455,0.027128475351936365
+87,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,87,0,0.25,22.0,0.006009578704833984,['open fridge'],0.4072079688822807,0.02714719792548538
+88,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,88,0,0.25,22.25,0.005984306335449219,['open fridge'],0.4074747655553542,0.02716498437035695
+89,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,89,0,0.25,22.5,0.006979465484619141,['open fridge'],0.407728222394774,0.027181881492984936
+90,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,90,0,0.25,22.75,0.006981849670410156,['open fridge'],0.40796900639222283,0.027197933759481523
+91,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,91,0,0.25,23.0,0.006008625030517578,['open fridge'],0.4081977511897992,0.027213183412653278
+92,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,92,0,0.25,23.25,0.005960702896118164,['open fridge'],0.40841505874749673,0.027227670583166448
+93,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,93,0,0.25,23.5,0.005984067916870117,['open fridge'],0.4086215009273094,0.02724143339515396
+94,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,94,0,0.25,23.75,0.005983591079711914,['open fridge'],0.40881762099813146,0.0272545080665421
+95,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,95,0,0.25,24.0,0.005954742431640625,['open fridge'],0.4090039350654124,0.027266929004360826
+96,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,96,0,0.25,24.25,0.005984306335449219,['open fridge'],0.40918093342932926,0.027278728895288616
+97,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,97,1,0.25,24.5,0.007978677749633789,"['examine cookbook', 'open fridge']",0.4215917928043293,0.02634948705027058
+98,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,98,0,0.25,24.75,0.0049893856048583984,['open fridge'],0.42175994125005034,0.026359996328128146
+99,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,99,0,0.25,25.0,0.0050144195556640625,['open fridge'],0.4219196822734853,0.026369980142092832
+100,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,100,0,0.25,25.25,0.0060117244720458984,['open fridge'],0.42207143624574855,0.026379464765359285
+101,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,101,0,0.25,25.5,0.005984067916870117,['open fridge'],0.4222156025193986,0.026388475157462413
+102,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,102,0,0.25,25.75,0.007006168365478516,['open fridge'],0.4223525604793662,0.026397035029960388
+103,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,103,0,0.25,26.0,0.007006168365478516,['open fridge'],0.42248267054133537,0.02640516690883346
+104,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,104,0,0.25,26.25,0.005959272384643555,['open fridge'],0.4226062751002061,0.02641289219376288
+105,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,105,0,0.25,26.5,0.007005214691162109,['open fridge'],0.4227236994311333,0.02642023121444583
+106,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,106,0,0.25,26.75,0.0070078372955322266,['open fridge'],0.42283525254551413,0.026427203284094633
+107,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,107,0,0.25,27.0,0.0060083866119384766,['open fridge'],0.42294122800417594,0.026433826750260996
+108,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,108,0,0.25,27.25,0.006009340286254883,['open fridge'],0.42304190468990466,0.02644011904311904
+109,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,109,0,0.25,27.5,0.005011558532714844,['open fridge'],0.4231375475413469,0.026446096721334182
+110,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,110,0,0.25,27.75,0.005983829498291016,['open fridge'],0.42322840825021707,0.026451775515638567
+111,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,111,0,0.25,28.0,0.005986928939819336,['open fridge'],0.4233147259236437,0.026457170370227732
+112,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,112,0,0.25,28.25,0.00598454475402832,['open fridge'],0.42339672771339903,0.02646229548208744
+113,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,113,0,0.25,28.5,0.005983829498291016,['open fridge'],0.4234746294136666,0.026467164338354162
+114,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,114,0,0.25,28.75,0.005984067916870117,['open fridge'],0.4235486360289208,0.02647178975180755
+115,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,115,0,0.25,29.0,0.005984306335449219,['open fridge'],0.42361894231341224,0.026476183894588265
+116,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,116,0,0.25,29.25,0.00598454475402832,['open fridge'],0.42368573328367914,0.026480358330229947
+117,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,117,0,0.25,29.5,0.00598454475402832,['open fridge'],0.42374918470543266,0.02648432404408954
+118,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,118,0,0.25,29.75,0.005984306335449219,['open fridge'],0.4238094635560985,0.026488091472256156
+119,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,119,0,0.25,30.0,0.005983829498291016,['open fridge'],0.42386672846423107,0.026491670529014442
+120,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,120,0,0.25,30.25,0.005986928939819336,['open fridge'],0.423921130126957,0.02649507063293481
+121,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,121,0,0.25,30.5,0.006981611251831055,['open fridge'],0.42397281170654666,0.026498300731659166
+122,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,122,0,0.25,30.75,0.005984783172607422,['open fridge'],0.4240219092071568,0.0265013693254473
+123,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,123,0,0.25,31.0,0.006981849670410156,['open fridge'],0.4240685518327365,0.02650428448954603
+124,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,124,0,0.25,31.25,0.0059833526611328125,['open fridge'],0.42411286232703715,0.026507053895439822
+125,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,125,0,0.25,31.5,0.006981372833251953,['open fridge'],0.4241549572966228,0.026509684831038924
+126,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,126,0,0.25,31.75,0.005984306335449219,['open fridge'],0.4241949475177291,0.02651218421985807
+127,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,127,0,0.25,32.0,0.005984067916870117,['open fridge'],0.4242329382277802,0.02651455863923626
+128,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,128,3,0.25,32.25,0.012965679168701172,"['open dishwasher', 'take cookbook', 'examine cookbook', 'open fridge']",0.4366113602980927,0.025683021194005454
+129,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,129,0,0.25,32.5,0.005983591079711914,['open fridge'],0.4366474514726412,0.02568514420427301
+130,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,130,0,0.25,32.75,0.0060117244720458984,['open fridge'],0.4366817380884623,0.025687161064027193
+131,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,131,0,0.25,33.0,0.005982875823974609,['open fridge'],0.4367143103734923,0.025689077080793665
+132,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,132,0,0.25,33.25,0.007010459899902344,['open fridge'],0.4367452540442708,0.02569089729672181
+133,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,133,0,0.25,33.5,0.007012128829956055,['open fridge'],0.4367746505315104,0.02569262650185355
+134,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,134,0,0.25,33.75,0.006013393402099609,['open fridge'],0.436802577194388,0.025694269246728706
+135,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,135,2,0.25,34.0,0.009006261825561523,"['open kitchen cupboard', 'examine oven', 'open fridge']",0.44918374906938796,0.02495465272607711
+136,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,136,0,0.25,34.25,0.0059850215911865234,['open fridge'],0.4492102793991217,0.02495612663328454
+137,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,137,0,0.25,34.5,0.00598454475402832,['open fridge'],0.4492354832123687,0.024957526845131597
+138,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,138,0,0.25,34.75,0.00598454475402832,['open fridge'],0.4492594268349534,0.0249588570463863
+139,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,139,0,0.25,35.0,0.005952358245849609,['open fridge'],0.44928217327640885,0.024960120737578268
+140,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,140,0,0.25,35.25,0.005956172943115234,['open fridge'],0.4493037823957915,0.02496132124421064
+141,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,141,0,0.25,35.5,0.005980014801025391,['open fridge'],0.449324311059205,0.02496246172551139
+142,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,142,0,0.25,35.75,0.0059621334075927734,['open fridge'],0.4493438132894479,0.024963545182747106
+143,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,143,2,0.25,36.0,0.009973526000976562,"['examine fridge', 'take knife', 'open fridge']",0.4616981921956979,0.024299904852405154
+144,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,144,0,0.25,36.25,0.005984306335449219,['open fridge'],0.46171671931442865,0.024300879963917298
+145,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,145,0,0.25,36.5,0.0069806575775146484,['open fridge'],0.4617343200772228,0.024301806319853833
+146,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,146,0,0.25,36.75,0.005982637405395508,['open fridge'],0.4617510408018773,0.02430268635799354
+147,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,147,0,0.25,37.0,0.005983829498291016,['open fridge'],0.4617669254902991,0.024303522394226267
+148,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,148,0,0.25,37.25,0.005983829498291016,['open fridge'],0.46178201594429974,0.024304316628647356
+149,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,149,0,0.25,37.5,0.0049860477447509766,['open fridge'],0.46179635187560036,0.024305071151347387
+150,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,150,0,0.25,37.75,0.005982637405395508,['open fridge'],0.46180997101033594,0.024305787947912418
+151,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,151,0,0.25,38.0,0.00698089599609375,['open fridge'],0.4618229091883348,0.0243064689046492
+152,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,152,0,0.25,38.25,0.005983591079711914,['open fridge'],0.46183520045743365,0.02430711581354914
+153,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,153,0,0.25,38.5,0.005983829498291016,['open fridge'],0.4618468771630776,0.024307730377004084
+154,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,154,0,0.25,38.75,0.005983591079711914,['open fridge'],0.4618579700334393,0.02430831421228628
+155,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,155,0,0.25,39.0,0.0059545040130615234,['open fridge'],0.461868508260283,0.024308868855804366
+156,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,156,0,0.25,39.25,0.0059833526611328125,['open fridge'],0.4618785195757844,0.02430939576714655
+157,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,157,0,0.25,39.5,0.00698089599609375,['open fridge'],0.46188803032551085,0.024309896332921622
+158,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,158,0,0.25,39.75,0.006981849670410156,['open fridge'],0.4618970655377509,0.02431037187040794
+159,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,159,0,0.25,40.0,0.005984306335449219,['open fridge'],0.46190564898937897,0.024310823631019947
+160,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,160,2,0.25,40.25,0.008976459503173828,"['read cookbook', 'examine oven', 'open fridge']",0.47426426207531647,0.023713213103765823
+161,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,161,0,0.25,40.5,0.005984783172607422,['open fridge'],0.4742724163543631,0.023713620817718155
+162,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,162,2,0.25,40.75,0.009973764419555664,"['read cookbook', 'examine oven', 'open fridge']",0.4866001329075858,0.023171434900361228
+163,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,163,0,0.25,41.0,0.005983829498291016,['open fridge'],0.48660787947268014,0.02317180378441334
+164,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,164,0,0.25,41.25,0.0060155391693115234,['open fridge'],0.4866152387095197,0.023172154224262845
+165,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,165,0,0.25,41.5,0.007009029388427734,['open fridge'],0.4866222299845174,0.023172487142119873
+166,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,166,0,0.25,41.75,0.005983829498291016,['open fridge'],0.48662887169576513,0.023172803414084054
+167,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,167,0,0.25,42.0,0.005983829498291016,['open fridge'],0.4866351813214505,0.023173103872450022
+168,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,168,0,0.25,42.25,0.007009029388427734,['open fridge'],0.4866411754658516,0.023173389307897696
+169,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,169,0,0.25,42.5,0.00598454475402832,['open fridge'],0.48664686990303263,0.02317366047157298
+170,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,170,0,0.25,42.75,0.00601506233215332,['open fridge'],0.4866522796183546,0.023173918077064506
+171,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,171,0,0.25,43.0,0.0059833526611328125,['open fridge'],0.4866574188479105,0.02317416280228145
+172,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,172,0,0.25,43.25,0.005984306335449219,['open fridge'],0.48666230111598857,0.023174395291237552
+173,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,173,0,0.25,43.5,0.005956888198852539,['open fridge'],0.48666693927066274,0.023174616155745845
+174,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,174,0,0.25,43.75,0.00598454475402832,['open fridge'],0.4866713455176032,0.023174825977028725
+175,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,175,0,0.25,44.0,0.006969928741455078,['open fridge'],0.48667553145219666,0.02317502530724746
+176,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,176,0,0.25,44.25,0.005983829498291016,['open fridge'],0.48667950809006044,0.02317521467095526
+177,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,177,0,0.25,44.5,0.005980730056762695,['open fridge'],0.48668328589603105,0.02317539456647767
+178,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,178,0,0.25,44.75,0.005984306335449219,['open fridge'],0.48668687481170314,0.02317556546722396
+179,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,179,0,0.25,45.0,0.005984306335449219,['open fridge'],0.4866902842815916,0.023175727822932934
+180,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,180,0,0.25,45.25,0.006981372833251953,['open fridge'],0.48669352327798565,0.02317588206085646
+181,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,181,0,0.25,45.5,0.005984067916870117,['open fridge'],0.48669660032455997,0.023176028586883807
+182,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,182,0,0.25,45.75,0.00498652458190918,['open fridge'],0.48669952351880563,0.023176167786609792
+183,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,183,0,0.25,46.0,0.005984306335449219,['open fridge'],0.48670230055333896,0.023176300026349475
+184,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,184,0,0.25,46.25,0.006981849670410156,['open fridge'],0.4867049387361456,0.023176425654102172
+185,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,185,0,0.25,46.5,0.005984067916870117,['open fridge'],0.486707445009812,0.023176545000467237
+186,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,186,0,0.25,46.75,0.005984783172607422,['open fridge'],0.48670982596979506,0.02317665837951405
+187,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,187,0,0.25,47.0,0.005983114242553711,['open fridge'],0.48671208788177894,0.02317676608960852
+188,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,188,0,0.25,47.25,0.00595855712890625,['open fridge'],0.4867142366981636,0.023176868414198266
+189,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,189,0,0.25,47.5,0.005983114242553711,['open fridge'],0.4867162780737291,0.023176965622558526
+190,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,190,0,0.25,47.75,0.006013393402099609,['open fridge'],0.48671821738051624,0.023177057970500774
+191,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,191,0,0.25,48.0,0.006013631820678711,['open fridge'],0.4867200597219641,0.02317714570104591
+192,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,192,0,0.25,48.25,0.006015777587890625,['open fridge'],0.4867218099463395,0.023177229045063787
+193,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,193,0,0.25,48.5,0.005984306335449219,['open fridge'],0.48672347265949617,0.02317730822188077
+194,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,194,0,0.25,48.75,0.006981849670410156,['open fridge'],0.486725052236995,0.023177383439856907
+195,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,195,0,0.25,49.0,0.005016326904296875,['open fridge'],0.48672655283561894,0.023177454896934235
+196,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,196,0,0.25,49.25,0.005984306335449219,['open fridge'],0.4867279784043116,0.023177522781157693
+197,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,197,0,0.25,49.5,0.006003856658935547,['open fridge'],0.48672933269456964,0.023177587271169982
+198,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,198,0,0.25,49.75,0.006014108657836914,['open fridge'],0.4867306192703148,0.023177648536681656
+199,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,199,0,0.25,50.0,0.0059833526611328125,['open fridge'],0.48673184151727267,0.023177706738917746
+200,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,200,0,0.25,50.25,0.006011486053466797,['open fridge'],0.4867330026518827,0.02317776203104203
+201,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,201,6,0.25,50.5,0.016955852508544922,"['open dishwasher', 'take cookbook', 'examine cookbook', 'examine dishwasher', 'examine dishwasher', 'take knife', 'open fridge']",0.5017426493799101,0.021814897799126525
+202,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,202,0,0.25,50.75,0.005958080291748047,['open fridge'],0.5017437524577896,0.02181494575903433
+203,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,203,0,0.25,51.0,0.0059719085693359375,['open fridge'],0.501744800381775,0.02181499132094674
+204,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,204,2,0.25,51.25,0.010972023010253906,"['examine fridge', 'take knife', 'open fridge']",0.5140415003720094,0.022349630450956927
+205,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,205,0,0.25,51.5,0.005951881408691406,['open fridge'],0.5140424958997956,0.02234967373477372
+206,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,206,0,0.25,51.75,0.0059833526611328125,['open fridge'],0.5140434416511925,0.022349714854399676
+207,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,207,0,0.25,52.0,0.0059566497802734375,['open fridge'],0.5140443401150196,0.02234975391804433
+208,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,208,0,0.25,52.25,0.005956888198852539,['open fridge'],0.5140451936556554,0.022349791028506757
+209,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,209,0,0.25,52.5,0.005972623825073242,['open fridge'],0.5140460045192593,0.022349826283446058
+210,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,210,0,0.25,52.75,0.00498652458190918,['open fridge'],0.5140467748396831,0.022349859775638393
+211,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,211,0,0.25,53.0,0.005984067916870117,['open fridge'],0.5140475066440856,0.022349891593221115
+212,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,212,0,0.25,53.25,0.005983829498291016,['open fridge'],0.514048201858268,0.0223499218199247
+213,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,213,0,0.25,53.5,0.005984067916870117,['open fridge'],0.5140488623117414,0.022349950535293105
+214,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,214,0,0.25,53.75,0.005982637405395508,['open fridge'],0.514049489742541,0.02234997781489309
+215,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,215,4,0.25,54.0,0.012965202331542969,"['examine stove', 'open dishwasher', 'take cookbook', 'examine cookbook', 'open fridge']",0.5263902904569697,0.021932928769040405
+216,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,216,0,0.25,54.25,0.005984067916870117,['open fridge'],0.5263908865162295,0.021932953604842893
+217,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,217,0,0.25,54.5,0.006982088088989258,['open fridge'],0.5263914527725262,0.021932977198855258
+218,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,218,0,0.25,54.75,0.005984067916870117,['open fridge'],0.5263919907160081,0.021932999613167
+219,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,219,1,0.25,55.0,0.005984783172607422,"['examine oven', 'open fridge']",0.5386187679323167,0.022442448663846527
+220,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,220,0,0.25,55.25,0.005984067916870117,['open fridge'],0.5386192789786244,0.022442469957442684
+221,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,221,0,0.25,55.5,0.0059833526611328125,['open fridge'],0.5386197644726167,0.02244249018635903
+222,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,222,0,0.25,55.75,0.005984783172607422,['open fridge'],0.5386202256919095,0.022442509403829563
+223,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,223,0,0.25,56.0,0.00598454475402832,['open fridge'],0.5386206638502375,0.022442527660426564
+224,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,224,0,0.25,56.25,0.00598454475402832,['open fridge'],0.5386210801006492,0.02244254500419372
+225,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,225,0,0.25,56.5,0.005983829498291016,['open fridge'],0.5386214755385403,0.022442561480772515
+226,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,226,0,0.25,56.75,0.004988431930541992,['open fridge'],0.5386218512045369,0.02244257713352237
+227,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,227,6,0.25,57.0,0.01695704460144043,"['open cutlery drawer', 'examine counter', 'examine dishwasher', 'open dishwasher', 'take cookbook', 'examine cookbook', 'open fridge']",0.5509331761870002,0.021189737545653856
+228,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,228,0,0.25,57.25,0.005983829498291016,['open fridge'],0.550933533069697,0.02118975127191142
+229,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,229,0,0.25,57.5,0.005982398986816406,['open fridge'],0.5509338721082588,0.02118976431185611
+230,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,230,0,0.25,57.75,0.007009029388427734,['open fridge'],0.5509341941948926,0.021189776699803563
+231,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,231,0,0.25,58.0,0.005010366439819336,['open fridge'],0.5509345001771948,0.021189788468353645
+232,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,232,0,0.25,58.25,0.0049896240234375,['open fridge'],0.5509347908603819,0.021189799648476226
+233,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,233,0,0.25,58.5,0.006009101867675781,['open fridge'],0.5509350670094095,0.021189810269592674
+234,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,234,0,0.25,58.75,0.006009340286254883,['open fridge'],0.5509353293509858,0.0211898203596533
+235,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,235,0,0.25,59.0,0.006012439727783203,['open fridge'],0.5509355785754833,0.021189829945210896
+236,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,236,6,0.25,59.25,0.01495981216430664,"['open dishwasher', 'examine cutlery drawer', 'examine trash can', 'examine kitchen cupboard', 'examine fridge', 'take knife', 'open fridge']",0.5632543077329241,0.020861270656774965
+237,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,237,0,0.25,59.5,0.005984306335449219,['open fridge'],0.5632545444961967,0.020861279425785063
+238,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,238,0,0.25,59.75,0.005983829498291016,['open fridge'],0.5632547694213057,0.020861287756344656
+239,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,239,0,0.25,60.0,0.006011009216308594,['open fridge'],0.5632549831001592,0.020861295670376267
+240,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,240,4,0.25,60.25,0.013962268829345703,"['take cookbook', 'examine cookbook', 'examine fridge', 'take knife', 'open fridge']",0.579045567985463,0.02068019885662368
+241,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,241,0,0.25,60.5,0.0070035457611083984,['open fridge'],0.5790457709803738,0.02068020610644192
+242,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,242,0,0.25,60.75,0.005983829498291016,['open fridge'],0.5790459638255391,0.020680212993769254
+243,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,243,0,0.25,61.0,0.00595545768737793,['open fridge'],0.5790461470284461,0.02068021953673022
+244,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,244,0,0.25,61.25,0.005956172943115234,['open fridge'],0.5790463210712078,0.020680225752543135
+245,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,245,0,0.25,61.5,0.0059833526611328125,['open fridge'],0.5790464864118314,0.02068023165756541
+246,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,246,0,0.25,61.75,0.006957530975341797,['open fridge'],0.5790466434854238,0.020680237267336563
+247,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,247,0,0.25,62.0,0.005983591079711914,['open fridge'],0.5790467927053365,0.020680242596619162
+248,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,248,4,0.25,62.25,0.013961315155029297,"['open dishwasher', 'take cookbook', 'examine cookbook', 'examine cookbook', 'open fridge']",0.5948981794112905,0.02051373032452726
+249,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,249,0,0.25,62.5,0.005982875823974609,['open fridge'],0.5948983211702077,0.020513735212765782
+250,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,250,0,0.25,62.75,0.005983591079711914,['open fridge'],0.594898455841179,0.020513739856592376
+251,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,251,0,0.25,63.0,0.005983591079711914,['open fridge'],0.5948985837786017,0.020513744268227645
+252,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,252,0,0.25,63.25,0.005983829498291016,['open fridge'],0.5948987053191533,0.02051374845928115
+253,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,253,0,0.25,63.5,0.005984306335449219,['open fridge'],0.5948988207826773,0.020513752440781977
+254,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,254,0,0.25,63.75,0.0069806575775146484,['open fridge'],0.5948989304730251,0.020513756223207762
+255,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,255,2,0.25,64.0,0.008975505828857422,"['open kitchen cupboard', 'examine oven', 'open fridge']",0.6071775617875027,0.020937157303017335
+256,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,256,0,0.25,64.25,0.004987001419067383,['open fridge'],0.6071776659933331,0.020937160896321833
+257,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,257,0,0.25,64.5,0.006014108657836914,['open fridge'],0.607177764988872,0.020937164309961103
+258,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,258,0,0.25,64.75,0.007010459899902344,['open fridge'],0.607177859034634,0.020937167552918412
+259,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,259,0,0.25,65.0,0.005983114242553711,['open fridge'],0.6071779483781078,0.020937170633727856
+260,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,260,0,0.25,65.25,0.00598454475402832,['open fridge'],0.6071780332544079,0.020937173560496822
+261,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,261,0,0.25,65.5,0.005980491638183594,['open fridge'],0.607178113886893,0.020937176340927347
+262,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,262,0,0.25,65.75,0.0069577693939208984,['open fridge'],0.6071781904877539,0.02093717898233634
+263,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,263,0,0.25,66.0,0.006011962890625,['open fridge'],0.6071782632585717,0.020937181491674887
+264,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,264,0,0.25,66.25,0.006011247634887695,['open fridge'],0.6071783323908486,0.020937183875546505
+265,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,265,0,0.25,66.5,0.0060100555419921875,['open fridge'],0.6071783980665117,0.020937186140224544
+266,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,266,0,0.25,66.75,0.0059604644775390625,['open fridge'],0.6071784604583917,0.02093718829166868
+267,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,267,0,0.25,67.0,0.005984783172607422,['open fridge'],0.6071785197306777,0.02093719033554061
+268,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,268,0,0.25,67.25,0.00600886344909668,['open fridge'],0.6071785760393493,0.020937192277218943
+269,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,269,0,0.25,67.5,0.006009101867675781,['open fridge'],0.6071786295325874,0.020937194121813357
+270,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,270,0,0.25,67.75,0.005984783172607422,['open fridge'],0.6071786803511636,0.020937195874178055
+271,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,271,0,0.25,68.0,0.005980730056762695,['open fridge'],0.6071787286288111,0.02093719753892452
+272,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,272,0,0.25,68.25,0.005984783172607422,['open fridge'],0.6071787744925761,0.020937199120433656
+273,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,273,0,0.25,68.5,0.00598454475402832,['open fridge'],0.6071788180631528,0.020937200622867337
+274,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,274,0,0.25,68.75,0.00598454475402832,['open fridge'],0.6071788594552007,0.020937202050179335
+275,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,275,0,0.25,69.0,0.005957365036010742,['open fridge'],0.6071788987776462,0.02093720340612573
+276,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,276,0,0.25,69.25,0.00700831413269043,['open fridge'],0.6071789361339694,0.02093720469427481
+277,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,277,4,0.25,69.5,0.012964963912963867,"['open trash can', 'examine knife', 'examine fridge', 'take knife', 'open fridge']",0.6193903879232193,0.020646346264107312
+278,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,278,0,0.25,69.75,0.005984306335449219,['open fridge'],0.6193904234117265,0.02064634744705755
+279,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,279,0,0.25,70.0,0.005983829498291016,['open fridge'],0.6193904571258082,0.020646348570860274
+280,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,280,0,0.25,70.25,0.006011962890625,['open fridge'],0.6193904891541858,0.02064634963847286
+281,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,281,0,0.25,70.5,0.007010698318481445,['open fridge'],0.6193905195811445,0.020646350652704818
+282,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,282,0,0.25,70.75,0.006010770797729492,['open fridge'],0.6193905484867553,0.02064635161622518
+283,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,283,0,0.25,71.0,0.006009578704833984,['open fridge'],0.6193905759470857,0.020646352531569524
+284,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,284,0,0.25,71.25,0.0060122013092041016,['open fridge'],0.6193906020343994,0.020646353401146646
+285,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,285,0,0.25,71.5,0.00598454475402832,['open fridge'],0.6193906268173475,0.020646354227244916
+286,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,286,0,0.25,71.75,0.0060100555419921875,['open fridge'],0.6193906503611482,0.02064635501203827
+287,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,287,0,0.25,72.0,0.006012678146362305,['open fridge'],0.6193906727277588,0.02064635575759196
+288,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,288,0,0.25,72.25,0.004986763000488281,['open fridge'],0.619390693976039,0.020646356465867967
+289,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,289,0,0.25,72.5,0.0069811344146728516,['open fridge'],0.619390714161905,0.020646357138730167
+290,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,290,7,0.25,72.75,0.017952442169189453,"['examine fridge', 'read cookbook', 'examine oven', 'examine stove', 'open dishwasher', 'take cookbook', 'examine cookbook', 'open fridge']",0.6369023331763096,0.019903197911759676
+291,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,291,2,0.25,73.0,0.013962984085083008,"['look around', 'take knife', 'open fridge']",0.6491231664273417,0.020285098950854428
+292,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,292,0,0.25,73.25,0.0059850215911865234,['open fridge'],0.6491231856039145,0.020285099550122327
+293,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,293,0,0.25,73.5,0.005983591079711914,['open fridge'],0.6491232038216586,0.02028510011942683
+294,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,294,0,0.25,73.75,0.0060024261474609375,['open fridge'],0.6491232211285155,0.02028510066026611
+295,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,295,0,0.25,74.0,0.0069806575775146484,['open fridge'],0.6491232375700295,0.020285101174063423
+296,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,296,0,0.25,74.25,0.005983829498291016,['open fridge'],0.649123253189468,0.020285101662170874
+297,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,297,0,0.25,74.5,0.005957126617431641,['open fridge'],0.6491232680279344,0.02028510212587295
+298,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,298,0,0.25,74.75,0.00598454475402832,['open fridge'],0.6491232821244776,0.020285102566389924
+299,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,299,0,0.25,75.0,0.0060460567474365234,['open fridge'],0.6491232955161935,0.020285102984881048
+300,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,300,0,0.25,75.25,0.005988597869873047,['open fridge'],0.6491233082383236,0.020285103382447614
+301,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,301,7,0.25,75.5,0.019002437591552734,"['examine counter', 'examine dishwasher', 'open dishwasher', 'take cookbook', 'examine cookbook', 'read cookbook', 'examine oven', 'open fridge']",0.6657003573470868,0.019579422274914316
+302,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,302,0,0.25,75.75,0.0060117244720458984,['open fridge'],0.6657003694331105,0.019579422630385604
+303,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,303,0,0.25,76.0,0.0070111751556396484,['open fridge'],0.665700380914833,0.01957942296808332
+304,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,304,0,0.25,76.25,0.006015777587890625,['open fridge'],0.6657003918224693,0.019579423288896156
+305,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,305,0,0.25,76.5,0.006012916564941406,['open fridge'],0.6657004021847239,0.01957942359366835
+306,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,306,0,0.25,76.75,0.005952596664428711,['open fridge'],0.6657004120288658,0.019579423883201934
+307,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,307,0,0.25,77.0,0.006950855255126953,['open fridge'],0.6657004213808004,0.019579424158258835
+308,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,308,0,0.25,77.25,0.005955219268798828,['open fridge'],0.6657004302651384,0.019579424419562893
+309,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,309,0,0.25,77.5,0.005983114242553711,['open fridge'],0.6657004387052594,0.019579424667801746
+310,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,310,0,0.25,77.75,0.006015777587890625,['open fridge'],0.6657004467233745,0.01957942490362866
+311,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,311,0,0.25,78.0,0.006011486053466797,['open fridge'],0.6657004543405838,0.019579425127664227
+312,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,312,0,0.25,78.25,0.006015777587890625,['open fridge'],0.6657004615769326,0.01957942534049802
+313,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,313,0,0.25,78.5,0.005984067916870117,['open fridge'],0.665700468451464,0.01957942554269012
+314,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,314,0,0.25,78.75,0.005980968475341797,['open fridge'],0.6657004749822688,0.019579425734772612
+315,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,315,0,0.25,79.0,0.006980180740356445,['open fridge'],0.6657004811865334,0.01957942591725098
+316,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,316,0,0.25,79.25,0.009973526000976562,['open fridge'],0.6657004870805847,0.019579426090605433
+317,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,317,0,0.25,79.5,0.009973526000976562,['open fridge'],0.6657004926799335,0.01957942625529216
+318,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,318,0,0.25,79.75,0.00997304916381836,['open fridge'],0.6657004979993149,0.019579426411744556
+319,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,319,0,0.25,80.0,0.00997304916381836,['open fridge'],0.6657005030527271,0.019579426560374327
+320,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,320,0,0.25,80.25,0.008975982666015625,['open fridge'],0.6657005078534688,0.019579426701572613
+321,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,321,0,0.25,80.5,0.010970592498779297,['open fridge'],0.6657005124141734,0.019579426835710984
+322,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,322,0,0.25,80.75,0.007009029388427734,['open fridge'],0.6657005167468427,0.019579426963142434
+323,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,323,0,0.25,81.0,0.00695347785949707,['open fridge'],0.6657005208628786,0.01957942708420231
+324,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,324,0,0.25,81.25,0.005982160568237305,['open fridge'],0.6657005247731127,0.019579427199209198
+325,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,325,1,0.25,81.5,0.00698089599609375,"['open trash can', 'open fridge']",0.6782005247731127,0.01937715785066036
+326,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,326,0,0.25,81.75,0.005982875823974609,['open fridge'],0.6782005284878351,0.019377157956795288
+327,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,327,0,0.25,82.0,0.005982398986816406,['open fridge'],0.6782005320168214,0.019377158057623467
+328,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,328,0,0.25,82.25,0.005982875823974609,['open fridge'],0.6782005353693583,0.019377158153410238
+329,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,329,0,0.25,82.5,0.004985809326171875,['open fridge'],0.6782005385542684,0.01937715824440767
+330,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,330,0,0.25,82.75,0.005982637405395508,['open fridge'],0.678200541579933,0.01937715833085523
+331,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,331,0,0.25,83.0,0.005016326904296875,['open fridge'],0.6782005444543144,0.019377158412980412
+332,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,332,0,0.25,83.25,0.006012439727783203,['open fridge'],0.6782005471849768,0.019377158490999337
+333,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,333,0,0.25,83.5,0.006011247634887695,['open fridge'],0.6782005497791059,0.019377158565117313
+334,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,334,0,0.25,83.75,0.0059833526611328125,['open fridge'],0.6782005522435286,0.019377158635529388
+335,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,335,0,0.25,84.0,0.006012678146362305,['open fridge'],0.6782005545847302,0.019377158702420863
+336,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,336,0,0.25,84.25,0.006012916564941406,['open fridge'],0.6782005568088717,0.019377158765967763
+337,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,337,0,0.25,84.5,0.005985736846923828,['open fridge'],0.6782005589218061,0.019377158826337317
+338,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,338,0,0.25,84.75,0.0069522857666015625,['open fridge'],0.6782005609290938,0.019377158883688392
+339,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,339,0,0.25,85.0,0.0060138702392578125,['open fridge'],0.678200562836017,0.019377158938171917
+340,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,340,2,0.25,85.25,0.01096796989440918,"['take cookbook', 'examine cookbook', 'open fridge']",0.6903783536352719,0.019725095818150625
+341,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,341,0,0.25,85.5,0.005983829498291016,['open fridge'],0.690378355446849,0.019725095869909972
+342,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,342,3,0.25,85.75,0.010970354080200195,"['examine knife', 'examine fridge', 'take knife', 'open fridge']",0.7025415036037421,0.019515041766770616
+343,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,343,1,0.25,86.0,0.007007598876953125,"['examine counter', 'open fridge']",0.7150416269727781,0.01932544937764265
+344,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,344,0,0.25,86.25,0.005985260009765625,['open fridge'],0.7150416286937764,0.019325449424156118
+345,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,345,0,0.25,86.5,0.005953073501586914,['open fridge'],0.7150416303287248,0.019325449468343914
+346,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,346,0,0.25,86.75,0.00595545768737793,['open fridge'],0.7150416318819257,0.019325449510322317
+347,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,347,0,0.25,87.0,0.0059833526611328125,['open fridge'],0.7150416333574666,0.019325449550201802
+348,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,348,0,0.25,87.25,0.006012439727783203,['open fridge'],0.7150416347592305,0.019325449588087313
+349,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,349,0,0.25,87.5,0.006979942321777344,['open fridge'],0.7150416360909062,0.019325449624078547
+350,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,350,0,0.25,87.75,0.005983591079711914,['open fridge'],0.7150416373559981,0.01932544965827022
+351,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,351,0,0.25,88.0,0.006041765213012695,['open fridge'],0.7150416385578354,0.019325449690752308
+352,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,352,0,0.25,88.25,0.006989002227783203,['open fridge'],0.7150416396995809,0.019325449721610294
+353,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,353,0,0.25,88.5,0.005984306335449219,['open fridge'],0.715041640784239,0.01932544975092538
+354,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,354,2,0.25,88.75,0.013985157012939453,"['look around', 'take knife', 'open fridge']",0.7272089237208641,0.01965429523569903
+355,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,355,0,0.25,89.0,0.005984067916870117,['open fridge'],0.7272089247512894,0.019654295263548362
+356,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,356,0,0.25,89.25,0.005983591079711914,['open fridge'],0.7272089257301934,0.019654295290005227
+357,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,357,2,0.25,89.5,0.008950948715209961,"['open kitchen cupboard', 'examine oven', 'open fridge']",0.7394298441610759,0.01998459038273178
+358,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,358,0,0.25,89.75,0.006009817123413086,['open fridge'],0.7394298450910347,0.019984590407865804
+359,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,359,0,0.25,90.0,0.0060138702392578125,['open fridge'],0.7394298459744956,0.019984590431743124
+360,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,360,0,0.25,90.25,0.006013393402099609,['open fridge'],0.7394298468137834,0.01998459045442658
+361,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,361,0,0.25,90.5,0.0070056915283203125,['open fridge'],0.7394298476111069,0.01998459047597586
+362,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,362,0,0.25,90.75,0.006981372833251953,['open fridge'],0.7394298483685641,0.019984590496447678
+363,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,363,0,0.25,91.0,0.006014823913574219,['open fridge'],0.7394298490881485,0.019984590515895906
+364,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,364,0,0.25,91.25,0.006013631820678711,['open fridge'],0.7394298497717536,0.01998459053437172
+365,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,365,0,0.25,91.5,0.006013631820678711,['open fridge'],0.7394298504211785,0.019984590551923743
+366,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,366,0,0.25,91.75,0.005986213684082031,['open fridge'],0.7394298510381321,0.019984590568598165
+367,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,367,0,0.25,92.0,0.005983591079711914,['open fridge'],0.739429851624238,0.019984590584438865
+368,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,368,0,0.25,92.25,0.0069806575775146484,['open fridge'],0.7394298521810387,0.019984590599487533
+369,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,369,2,0.25,92.5,0.008975505828857422,"['read cookbook', 'examine cookbook', 'open fridge']",0.7523236377642433,0.019797990467480087
+370,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,370,0,0.25,92.75,0.006980180740356445,['open fridge'],0.7523236382932039,0.019797990481400102
+371,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,371,0,0.25,93.0,0.005983114242553711,['open fridge'],0.7523236387957165,0.019797990494624117
+372,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,372,0,0.25,93.25,0.006980180740356445,['open fridge'],0.7523236392731035,0.019797990507186936
+373,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,373,0,0.25,93.5,0.0069811344146728516,['open fridge'],0.7523236397266212,0.01979799051912161
+374,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,374,0,0.25,93.75,0.0059833526611328125,['open fridge'],0.7523236401574629,0.01979799053045955
+375,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,375,0,0.25,94.0,0.006981611251831055,['open fridge'],0.7523236405667626,0.019797990541230593
+376,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,376,0,0.25,94.25,0.009972810745239258,['open fridge'],0.7523236409555973,0.01979799055146309
+377,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,377,0,0.25,94.5,0.00997304916381836,['open fridge'],0.7523236413249903,0.019797990561183955
+378,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,378,0,0.25,94.75,0.008975028991699219,['open fridge'],0.7523236416759136,0.01979799057041878
+379,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,379,0,0.25,95.0,0.005983591079711914,['open fridge'],0.7523236420092907,0.01979799057919186
+380,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,380,0,0.25,95.25,0.006981372833251953,['open fridge'],0.7523236423259989,0.019797990587526286
+381,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,381,0,0.25,95.5,0.007977962493896484,['open fridge'],0.7523236426268718,0.019797990595443994
+382,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,382,0,0.25,95.75,0.006011962890625,['open fridge'],0.752323642912701,0.019797990602965818
+383,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,383,0,0.25,96.0,0.006011962890625,['open fridge'],0.7523236431842388,0.01979799061011155
+384,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,384,0,0.25,96.25,0.006011247634887695,['open fridge'],0.7523236434421997,0.01979799061689999
+385,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,385,0,0.25,96.5,0.006014347076416016,['open fridge'],0.7523236436872626,0.019797990623349016
+386,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,386,0,0.25,96.75,0.006952762603759766,['open fridge'],0.7523236439200722,0.019797990629475584
+387,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,387,0,0.25,97.0,0.005982875823974609,['open fridge'],0.7523236441412414,0.019797990635295828
+388,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,388,2,0.25,97.25,0.009003639221191406,"['read cookbook', 'examine oven', 'open fridge']",0.7644812745708882,0.02011792827818127
+389,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,389,0,0.25,97.5,0.0070133209228515625,['open fridge'],0.7644812747809989,0.020117928283710496
+390,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,390,3,0.25,97.75,0.01096963882446289,"['open cutlery drawer', 'read cookbook', 'examine oven', 'open fridge']",0.7766486508344936,0.01991406797011522
+391,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,391,0,0.25,98.0,0.00698089599609375,['open fridge'],0.7766486510340989,0.019914067975233304
+392,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,392,0,0.25,98.25,0.006011009216308594,['open fridge'],0.7766486512237238,0.019914067980095485
+393,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,393,0,0.25,98.5,0.0059871673583984375,['open fridge'],0.7766486514038675,0.01991406798471455
+394,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,394,0,0.25,98.75,0.005952596664428711,['open fridge'],0.7766486515750041,0.01991406798910267
+395,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,395,0,0.25,99.0,0.005983829498291016,['open fridge'],0.7766486517375838,0.01991406799327138
+396,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,396,0,0.25,99.25,0.006013154983520508,['open fridge'],0.7766486518920345,0.019914067997231652
+397,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,397,0,0.25,99.5,0.009972333908081055,['open fridge'],0.7766486520387627,0.019914068000993913
+398,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,398,0,0.25,99.75,0.00598454475402832,['open fridge'],0.7766486521781544,0.01991406800456806
+399,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,399,0,0.25,100.0,0.009970903396606445,['open fridge'],0.7766486523105766,0.0199140680079635
+400,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,400,0,0.25,100.25,0.005983114242553711,['open fridge'],0.7766486524363776,0.019914068011189168
+401,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,401,0,0.25,100.5,0.007977485656738281,['open fridge'],0.7766486525558887,0.019914068014253557
+402,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,402,0,0.25,100.75,0.008976459503173828,['open fridge'],0.7766486526694241,0.01991406801716472
+403,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,403,2,0.25,101.0,0.010969400405883789,"['open trash can', 'examine oven', 'open fridge']",0.7894382414714737,0.0192545912554018
+404,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,404,0,0.25,101.25,0.005984306335449219,['open fridge'],0.7894382415793324,0.019254591258032496
+405,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,405,0,0.25,101.5,0.005983829498291016,['open fridge'],0.7894382416817982,0.019254591260531664
+406,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,406,0,0.25,101.75,0.005983591079711914,['open fridge'],0.7894382417791407,0.01925459126290587
+407,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,407,0,0.25,102.0,0.005984067916870117,['open fridge'],0.789438241871616,0.019254591265161367
+408,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,408,0,0.25,102.25,0.005984067916870117,['open fridge'],0.7894382419594677,0.01925459126730409
+409,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,409,0,0.25,102.5,0.0059833526611328125,['open fridge'],0.7894382420429267,0.019254591269339674
+410,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,410,0,0.25,102.75,0.005982398986816406,['open fridge'],0.7894382421222127,0.01925459127127348
+411,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,411,1,0.25,103.0,0.006981611251831055,"['take knife', 'open fridge']",0.8016180389841598,0.01908614378533714
+412,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,412,0,0.25,103.25,0.00598454475402832,['open fridge'],0.8016180390594816,0.019086143787130513
+413,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,413,0,0.25,103.5,0.005983829498291016,['open fridge'],0.8016180391310372,0.01908614378883422
+414,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,414,0,0.25,103.75,0.0060117244720458984,['open fridge'],0.8016180391990151,0.01908614379045274
+415,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,415,1,0.25,104.0,0.00598597526550293,"['examine counter', 'open fridge']",0.8140867798488982,0.01938301856783091
+416,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,416,4,0.25,104.25,0.012964010238647461,"['examine cutlery drawer', 'examine knife', 'take cookbook', 'examine cookbook', 'open fridge']",0.8263244592577582,0.018780101346767233
+417,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,417,0,0.25,104.5,0.006013393402099609,['open fridge'],0.8263244593223372,0.018780101348234938
+418,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,418,1,0.25,104.75,0.006979465484619141,"['examine oven', 'open fridge']",0.8382446945397776,0.019051015784994945
+419,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,419,2,0.25,105.0,0.008974313735961914,"['examine fridge', 'take knife', 'open fridge']",0.8502914959843352,0.019324806726916707
+420,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,420,0,0.25,105.25,0.005972623825073242,['open fridge'],0.8502914960456852,0.019324806728311026
+421,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,421,0,0.25,105.5,0.005016803741455078,['open fridge'],0.8502914961039677,0.01932480672963563
+422,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,422,0,0.25,105.75,0.005980014801025391,['open fridge'],0.8502914961593361,0.019324806730894
+423,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,423,0,0.25,106.0,0.005983591079711914,['open fridge'],0.8502914962119361,0.01932480673208946
+424,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,424,0,0.25,106.25,0.005982160568237305,['open fridge'],0.8502914962619061,0.01932480673322514
+425,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,425,2,0.25,106.5,0.009978771209716797,"['take cookbook', 'examine cookbook', 'open fridge']",0.8623399580945565,0.01959863541123992
+426,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,426,0,0.25,106.75,0.006013393402099609,['open fridge'],0.862339958142028,0.019598635412318818
+427,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,427,0,0.25,107.0,0.006013631820678711,['open fridge'],0.8623399581871259,0.019598635413343772
+428,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,428,0,0.25,107.25,0.005983591079711914,['open fridge'],0.8623399582299689,0.019598635414317476
+429,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,429,0,0.25,107.5,0.0059833526611328125,['open fridge'],0.8623399582706698,0.019598635415242496
+430,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,430,0,0.25,107.75,0.006013154983520508,['open fridge'],0.8623399583093356,0.019598635416121266
+431,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,431,0,0.25,108.0,0.0060155391693115234,['open fridge'],0.8623399583460681,0.019598635416956094
+432,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,432,0,0.25,108.25,0.00598454475402832,['open fridge'],0.862339958380964,0.019598635417749182
+433,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,433,0,0.25,108.5,0.005988597869873047,['open fridge'],0.8623399584141151,0.019598635418502618
+434,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,434,0,0.25,108.75,0.0060122013092041016,['open fridge'],0.8623399584456087,0.019598635419218382
+435,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,435,0,0.25,109.0,0.0059893131256103516,['open fridge'],0.8623399584755276,0.019598635419898355
+436,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,436,0,0.25,109.25,0.007010936737060547,['open fridge'],0.8623399585039505,0.019598635420544328
+437,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,437,0,0.25,109.5,0.0060160160064697266,['open fridge'],0.8623399585309524,0.019598635421158007
+438,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,438,0,0.25,109.75,0.006012916564941406,['open fridge'],0.8623399585566041,0.019598635421741003
+439,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,439,2,0.25,110.0,0.008008003234863281,"['examine toaster', 'examine trash can', 'open fridge']",0.874839958556604,0.019440887967924533
+440,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,440,0,0.25,110.25,0.005985736846923828,['open fridge'],0.8748399585809732,0.01944088796846607
+441,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,441,0,0.25,110.5,0.005985736846923828,['open fridge'],0.8748399586041238,0.019440887968980528
+442,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,442,1,0.25,110.75,0.006980180740356445,"['examine cookbook', 'open fridge']",0.8869511138124234,0.019710024751387188
+443,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,443,0,0.25,111.0,0.005986452102661133,['open fridge'],0.8869511138344166,0.019710024751875926
+444,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,444,0,0.25,111.25,0.005955696105957031,['open fridge'],0.8869511138553101,0.019710024752340224
+445,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,445,0,0.25,111.5,0.007008790969848633,['open fridge'],0.8869511138751589,0.01971002475278131
+446,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,446,0,0.25,111.75,0.005979299545288086,['open fridge'],0.8869511138940153,0.01971002475320034
+447,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,447,0,0.25,112.0,0.005998373031616211,['open fridge'],0.8869511139119288,0.01971002475359842
+448,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,448,0,0.25,112.25,0.005984067916870117,['open fridge'],0.8869511139289467,0.019710024753976593
+449,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,449,0,0.25,112.5,0.00598454475402832,['open fridge'],0.8869511139451136,0.019710024754335857
+450,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,450,0,0.25,112.75,0.005984306335449219,['open fridge'],0.8869511139604722,0.01971002475467716
+451,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,451,3,0.25,113.0,0.009972810745239258,"['examine toaster', 'read cookbook', 'examine oven', 'open fridge']",0.8990589438681948,0.019544759649308584
+452,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,452,1,0.25,113.25,0.0069806575775146484,"['open trash can', 'open fridge']",0.9114980063681948,0.019815174051482497
+453,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,453,0,0.25,113.5,0.00598454475402832,['open fridge'],0.9114980063827854,0.019815174051799684
+454,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,454,0,0.25,113.75,0.00598454475402832,['open fridge'],0.9114980063966466,0.019815174052101012
+455,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,455,0,0.25,114.0,0.005984783172607422,['open fridge'],0.9114980064098147,0.019815174052387276
+456,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,456,0,0.25,114.25,0.005984306335449219,['open fridge'],0.9114980064223244,0.019815174052659226
+457,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,457,0,0.25,114.5,0.006015777587890625,['open fridge'],0.9114980064342086,0.019815174052917578
+458,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,458,3,0.25,114.75,0.012935638427734375,"['open dishwasher', 'take cookbook', 'examine cookbook', 'open fridge']",0.9235771373995176,0.020077763856511253
+459,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,459,0,0.25,115.0,0.005955934524536133,['open fridge'],0.9235771374108076,0.02007776385675669
+460,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,460,0,0.25,115.25,0.005983829498291016,['open fridge'],0.9235771374215331,0.02007776385698985
+461,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,461,0,0.25,115.5,0.005956172943115234,['open fridge'],0.9235771374317223,0.020077763857211356
+462,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,462,0,0.25,115.75,0.006014347076416016,['open fridge'],0.9235771374414021,0.020077763857421785
+463,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,463,0,0.25,116.0,0.005015850067138672,['open fridge'],0.9235771374505979,0.020077763857621694
+464,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,464,0,0.25,116.25,0.005979776382446289,['open fridge'],0.9235771374593339,0.020077763857811605
+465,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,465,0,0.25,116.5,0.006008625030517578,['open fridge'],0.9235771374676331,0.020077763857992027
+466,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,466,0,0.25,116.75,0.006012678146362305,['open fridge'],0.9235771374755174,0.02007776385816342
+467,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,467,0,0.25,117.0,0.006951332092285156,['open fridge'],0.9235771374830074,0.02007776385832625
+468,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,468,0,0.25,117.25,0.005983591079711914,['open fridge'],0.9235771374901229,0.020077763858480934
+469,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,469,0,0.25,117.5,0.005986213684082031,['open fridge'],0.9235771374968826,0.020077763858627883
+470,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,470,0,0.25,117.75,0.006012916564941406,['open fridge'],0.9235771375033044,0.020077763858767486
+471,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,471,0,0.25,118.0,0.005981922149658203,['open fridge'],0.9235771375094051,0.02007776385890011
+472,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,472,0,0.25,118.25,0.006012678146362305,['open fridge'],0.9235771375152007,0.020077763859026102
+473,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,473,0,0.25,118.5,0.005982637405395508,['open fridge'],0.9235771375207065,0.02007776385914579
+474,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,474,0,0.25,118.75,0.006015777587890625,['open fridge'],0.9235771375259371,0.020077763859259502
+475,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,475,0,0.25,119.0,0.005015850067138672,['open fridge'],0.9235771375309061,0.020077763859367524
+476,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,476,0,0.25,119.25,0.006010293960571289,['open fridge'],0.9235771375356266,0.020077763859470143
+477,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,477,3,0.25,119.5,0.009972572326660156,"['examine kitchen cupboard', 'examine fridge', 'take knife', 'open fridge']",0.9356542854425863,0.019907537988140135
+478,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,478,0,0.25,119.75,0.00498652458190918,['open fridge'],0.9356542854470709,0.01990753798823555
+479,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,479,0,0.25,120.0,0.0060138702392578125,['open fridge'],0.9356542854513312,0.019907537988326195
+480,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,480,0,0.25,120.25,0.005016326904296875,['open fridge'],0.9356542854553785,0.01990753798841231
+481,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,481,0,0.25,120.5,0.00600886344909668,['open fridge'],0.9356542854592235,0.019907537988494116
+482,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,482,0,0.25,120.75,0.006010770797729492,['open fridge'],0.9356542854628762,0.019907537988571835
+483,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,483,0,0.25,121.0,0.005983829498291016,['open fridge'],0.9356542854663463,0.019907537988645665
+484,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,484,0,0.25,121.25,0.005959987640380859,['open fridge'],0.9356542854696429,0.019907537988715807
+485,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,485,0,0.25,121.5,0.005983591079711914,['open fridge'],0.9356542854727746,0.019907537988782437
+486,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,486,1,0.25,121.75,0.006981611251831055,"['examine oven', 'open fridge']",0.9472535880972504,0.020154331661643623
+487,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,487,0,0.25,122.0,0.006013393402099609,['open fridge'],0.9472535881002255,0.020154331661706926
+488,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,488,0,0.25,122.25,0.005015134811401367,['open fridge'],0.9472535881030519,0.020154331661767062
+489,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,489,0,0.25,122.5,0.006009340286254883,['open fridge'],0.947253588105737,0.02015433166182419
+490,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,490,0,0.25,122.75,0.004987001419067383,['open fridge'],0.9472535881082879,0.020154331661878466
+491,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,491,0,0.25,123.0,0.0059833526611328125,['open fridge'],0.9472535881107111,0.020154331661930026
+492,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,492,0,0.25,123.25,0.006015777587890625,['open fridge'],0.9472535881130133,0.020154331661979007
+493,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,493,0,0.25,123.5,0.005984067916870117,['open fridge'],0.9472535881152003,0.02015433166202554
+494,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,494,0,0.25,123.75,0.005987882614135742,['open fridge'],0.947253588117278,0.020154331662069744
+495,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,495,0,0.25,124.0,0.005955696105957031,['open fridge'],0.9472535881192518,0.020154331662111738
+496,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,496,0,0.25,124.25,0.006011962890625,['open fridge'],0.9472535881211268,0.020154331662151633
+497,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,497,0,0.25,124.5,0.005980253219604492,['open fridge'],0.9472535881229082,0.020154331662189537
+498,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,498,0,0.25,124.75,0.005985260009765625,['open fridge'],0.9472535881246005,0.020154331662225543
+499,"Qlearntab_Language_{'alpha': 0.05, 'gamma': 0.95, 'epsilon': 0.1, 'epsilon_step': 0}",,499,0,0.25,125.0,0.005984306335449219,['open fridge'],0.9472535881262081,0.020154331662259748

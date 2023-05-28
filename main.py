@@ -14,7 +14,7 @@ from helios_rl.config_local import ConfigSetup
 # ------ Local Environment --------------------------------------
 from environment.env import Environment
 # ------ Visual Analysis -----------------------------------------------
-
+from helios_rl import combined_variance_analysis_graph
 
 def main():
     # ------ Load Configs -----------------------------------------
@@ -22,22 +22,14 @@ def main():
     ExperimentConfig = TestingSetupConfig("./config.json").state_configs
     # Local Parameters
     ProblemConfig = ConfigSetup("./config_local.json").state_configs
-
+    task = ProblemConfig['env_select']
     # Specify save dir
     time = datetime.now().strftime("%d-%m-%Y_%H-%M")
-    save_dir = './output/'+str('test')+'_'+time 
+    save_dir = './output/'+str(task)+'_'+time     
 
-    # --------------------------------------------------------------------
-    # Flat Baselines
-    flat = STANDARD_RL(Config=ExperimentConfig, LocalConfig=ProblemConfig, 
-                Environment=Environment,
-                save_dir=save_dir, show_figures = 'No', window_size=0.1)
-    flat.train()  
-    flat.test()
-    # --------------------------------------------------------------------
-
+    
     num_plans = 1
-    num_explor_epi = 20
+    num_explor_epi = 100
     sim_threshold = 0.95
 
     observed_states = None
@@ -47,7 +39,7 @@ def main():
                         Environment=Environment,
                         save_dir = save_dir+'/Reinforced_Instr_Experiment',
                         num_plans = num_plans, number_exploration_episodes=num_explor_epi, sim_threshold=sim_threshold,
-                        feedback_increment = 0.25, feedback_repeats=1,
+                        feedback_increment = 0.1, feedback_repeats=1,
                         observed_states=observed_states, instruction_results=instruction_results)
 
     # Don't provide any instruction information, will be defined by command line input
@@ -61,10 +53,34 @@ def main():
     reinforced_experiment = HELIOS_OPTIMIZE(Config=ExperimentConfig, LocalConfig=ProblemConfig, 
                     Environment=Environment,
                     save_dir=save_dir+'/Reinforced_Instr_Experiment', show_figures = 'No', window_size=0.1,
-                    instruction_path=None, predicted_path=instruction_results)
+                    instruction_path=None, predicted_path=instruction_results, instruction_episode_ratio=0.05)
     reinforced_experiment.train()
     reinforced_experiment.test()
     
+    # --------------------------------------------------------------------
+    # Flat Baselines
+    flat = STANDARD_RL(Config=ExperimentConfig, LocalConfig=ProblemConfig, 
+                Environment=Environment,
+                save_dir=save_dir, show_figures = 'No', window_size=0.1)
+    flat.train()  
+    flat.test()
+    # --------------------------------------------------------------------
+    # --------------------------------------------------------------------
+    # Combined results visual analysis
+    flat_results = pd.read_csv(save_dir+'/Standard_Experiment'+'/testing_variance_results.csv')
+    reinforced_results = pd.read_csv(save_dir+'/Reinforced_Instr_Experiment'+'/testing_variance_results.csv')
 
+    variance_results = {}
+    variance_results['Flat_agent'] = {}
+    variance_results['Flat_agent']['results'] = flat_results
+    variance_results['Flat_agent']['env_name'] = flat_results['agent'].iloc[0]
+    variance_results['Flat_agent']['num_repeats'] = flat_results['num_repeats'].iloc[0]
+
+    variance_results['Reinforced_instructions'] = {}
+    variance_results['Reinforced_instructions']['results'] = reinforced_results
+    variance_results['Reinforced_instructions']['env_name'] = reinforced_results['agent'].iloc[0]
+    variance_results['Reinforced_instructions']['num_repeats'] = reinforced_results['num_repeats'].iloc[0]
+
+    combined_variance_analysis_graph(variance_results, save_dir, show_figures='N')
 if __name__=='__main__':
     main()

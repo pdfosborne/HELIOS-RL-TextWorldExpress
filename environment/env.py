@@ -20,8 +20,9 @@ class Environment:
 
     def __init__(self, local_setup_info: dict):
         # --- INIT env from engine
-        self.env = Engine(task='twc')
-        self.start_obs = self.env.reset()
+        env_task = local_setup_info['env_select'] # ["cookingworld", "twc", "coin", "mapreader", "arithmetic", "sorting"]
+        self.env = Engine(task=env_task)
+        self.start_obs,_,_ = self.env.reset()
         # ---
         # --- PRESET HELIOS INFO
         # Agent
@@ -56,17 +57,18 @@ class Environment:
             action_history = []
             # ---
             # Start observation is used instead of .reset() fn so that this can be overriden for repeat analysis from the same start pos
-            obs = "ENV_RESET"
+            obs,_,_ = self.env.reset()
             legal_moves = self.env.legal_move_generator(obs)
             state = self.agent_state_adapter.adapter(state=obs, legal_moves=legal_moves, episode_action_history=action_history, encode=True)
             # ---
             start_time = time.time()
             episode_reward:int = 0
-            for action in range(0,self.training_action_cap):
+            for action in range(0,self.training_action_cap+1):
                 if self.live_env:
                     # Agent takes action
                     legal_moves = self.env.legal_move_generator(obs)
                     agent_action = self.agent.policy(state, legal_moves)
+                    
                     action_history.append(agent_action)
                     
                     next_obs, reward, terminated = self.env.step(state=obs, action=agent_action)
@@ -88,7 +90,7 @@ class Environment:
                             if next_obs == self.sub_goal:
                                 reward = self.reward_signal[0]
                                 terminated = True
-                        elif (type(self.sub_goal)==type(list('')))|(type(self.sub_goal)==type(list(0))):    
+                        elif (type(self.sub_goal)==type(list('')))|(type(self.sub_goal)==type([0])):    
                             if next_obs in self.sub_goal:
                                 reward = self.reward_signal[0]
                                 terminated = True         
@@ -104,19 +106,23 @@ class Environment:
                     agent_action = self.agent.policy(state, legal_moves)
                     next_state, reward, terminated = self.helios.experience_sampling_step(state, agent_action)
 
+                # If action limit reached
+                # - include learning and episode reward output if needed
+                if (action >= self.training_action_cap)&(not terminated):
+                    reward = self.reward_signal[2] 
+                    terminated = True    
+                episode_reward+=reward 
+                
                 if self.train:
                     self.agent.learn(state, next_state, reward, agent_action)
-                episode_reward+=reward
+
                 if terminated:
                     break
                 else:    
                     state=next_state
                     if self.live_env:
                         obs = next_obs        
-            # If action limit reached
-            if not terminated:
-                reward = self.reward_signal[2]     
-                
+            
             end_time = time.time()
             agent_results = self.agent.q_result()
             if self.live_env:
