@@ -69,12 +69,16 @@ class Environment:
                     legal_moves = self.env.legal_move_generator(obs)
                     agent_action = self.agent.policy(state, legal_moves)
                     
-                    action_history.append(agent_action)
+                    
                     
                     next_obs, reward, terminated = self.env.step(state=obs, action=agent_action)
                     # Can override reward per action with small negative punishment
                     if reward==0:
                         reward = self.reward_signal[1]
+                    # Custom reward to discourage agent getting stuck
+                    if agent_action in action_history:
+                        reward = self.reward_signal[3]
+                    action_history.append(agent_action)
                     
                     legal_moves = self.env.legal_move_generator(next_obs) 
                     next_state = self.agent_state_adapter.adapter(state=next_obs, legal_moves=legal_moves, episode_action_history=action_history, encode=True)

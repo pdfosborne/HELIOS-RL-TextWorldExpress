@@ -1,1 +1,0 @@
-{"You are in the kitchen---open fridge": {"Neural_Q_language_Language": {"count": 1, "sim_score": 0.3349951108296712, "sub_goal": ["You open the fridge. The fridge contains a raw chicken wing."]}}, "open fridge---get chicken wings": {"Neural_Q_language_Language": {"count": 1, "sim_score": 0.19251775741577148, "sub_goal": ["You take the chicken wing."]}}}
