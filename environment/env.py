@@ -45,7 +45,6 @@ class Environment:
         else:
             self.sub_goal:list = None
 
-
     def episode_loop(self):
         # Mode selection (already initialized)
         if self.train:
