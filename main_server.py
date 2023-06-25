@@ -31,8 +31,8 @@ def main():
     version = '1.0'
     save_dir = './output/'+str(task)+'_'+version
     
-    f = open(save_dir+'/Reinforced_Instr_Experiment/instruction_predictions.json','r')
-    instruction_results = json.load(f.read())
+    data = open(save_dir+'/Reinforced_Instr_Experiment/instruction_predictions.json','r')
+    instruction_results = json.loads(data.read())
 
     # ----
 
