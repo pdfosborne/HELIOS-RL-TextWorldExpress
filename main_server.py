@@ -14,7 +14,6 @@ from helios_rl.config_local import ConfigSetup
 # ====== LOCAL IMPORTS ==========================================
 # ------ Local Environment --------------------------------------
 from environment.env import Environment
-# ------ Visual Analysis -----------------------------------------------
 
 
 def main():
@@ -28,8 +27,9 @@ def main():
     # Server Specific:
     # - We do not run search methodology (assume we cannot interface directly)
     # - Search has been completed and we call the results of this to then train the agents to sub-goal/goals
+    task = ProblemConfig['env_select']
     version = '1.0'
-    save_dir = './output/test_'+version
+    save_dir = './output/'+str(task)+'_'+version
     
     f = open(save_dir+'/Reinforced_Instr_Experiment/instruction_predictions.json','r')
     instruction_results = json.load(f.read())

@@ -13,7 +13,6 @@ from helios_rl.config_local import ConfigSetup
 # ====== LOCAL IMPORTS ==========================================
 # ------ Local Environment --------------------------------------
 from environment.env import Environment
-# ------ Visual Analysis -----------------------------------------------
 
 
 def main():
@@ -24,11 +23,12 @@ def main():
     ProblemConfig = ConfigSetup("./config_local.json").state_configs
 
     # Specify save dir
+    task = ProblemConfig['env_select']
     version = '1.0'
-    save_dir = './output/test'+'_'+version 
+    save_dir = './output/'+str(task)+'_'+version
 
     num_plans = 1
-    num_explor_epi = 20
+    num_explor_epi = 250
     sim_threshold = 0.95
 
     observed_states = None
