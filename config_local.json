@@ -1,10 +1,10 @@
 {
- "adapter_select": ["Language"],
+ "adapter_select": ["Language","Language"],
  "training_action_cap": 100,
  "testing_action_cap":100,
- "reward_signal": [0.25,0,0,0],
+ "reward_signal": [0.1,0,0,0],
  "sub_goal": ["None"],
- "env_select": "twc-hard",
+ "env_select": "cookingworld-medium",
  "num_seeds":5,
- "sub_goals":"True" 
+ "sub_goals":"False" 
 }

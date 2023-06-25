@@ -86,19 +86,19 @@ class Engine:
                 print("Reward updated = ", reward)
             else:
                 reward = reward 
-        else:
-            if (reward!=0)&(not terminated):
-                print(" ")
-                print("-----")
-                print(action)
-                print(obs)
-                print("Reward from engine = ", reward)
-            elif (reward>0)&(terminated):
-                print(" ")
-                print("-----")
-                print(action)
-                print(obs)
-                print("Reward from engine = ", reward)
+        # else:
+        #     if (reward!=0)&(not terminated):
+        #         print(" ")
+        #         print("-----")
+        #         print(action)
+        #         print(obs)
+        #         print("Reward from engine = ", reward)
+        #     elif (reward>0)&(terminated):
+        #         print(" ")
+        #         print("-----")
+        #         print(action)
+        #         print(obs)
+        #         print("Reward from engine = ", reward)
 
         return obs, reward, terminated
 
